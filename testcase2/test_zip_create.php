@@ -1,7 +1,7 @@
 <pre><?php
 define( 'ROOT_PATH', str_replace('\\', '/', dirname(__FILE__)) );
 
-require_once('lib_zip.php');
+require_once('../lib_zip.php');
 $zip = new ZipFile();
 
 $filename = 'zipfile.zip';
